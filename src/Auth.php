@@ -51,6 +51,6 @@ class Auth {
             return null;
         }
 
-        return $this->tfa->getQRCodeImageAsDataUri('SES-MFA', $result['secret']);
+        return $this->tfa->getQRCodeImageAsDataUri($username, $result['secret']);
     }
 }

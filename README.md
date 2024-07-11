@@ -1,6 +1,6 @@
-# Ussage
+# Usage
 
-git clone
+git clone https://github.com/riverray121/simpleGoogleAuthMFA.git
 
 composer install
 
