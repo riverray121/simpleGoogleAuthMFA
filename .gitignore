@@ -1,0 +1,9 @@
+/vendor/
+/mfa.db
+.env
+.DS_Store
+*.log
+*.log.*
+.idea/
+.vscode/
+Thumbs.db

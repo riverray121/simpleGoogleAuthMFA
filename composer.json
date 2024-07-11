@@ -1,0 +1,20 @@
+{
+    "name": "elijahretzlaff/mfa",
+    "description": "A simple web app with MFA using Google Authenticator",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elijahretzlaff\\Mfa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elijah Retzlaff",
+            "email": "you@example.com"
+        }
+    ],
+    "require": {
+        "robthree/twofactorauth": "^1.8"
+    }
+}
